@@ -1,0 +1,35 @@
+:root {
+    --main-font-color: white;
+    --main-bg-color: black;
+}
+
+/*Inverses the main font and background colour scheme*/
+
+.light-theme {
+    --main-font-color: black;
+    --main-bg-color: white;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    margin: 0;
+}
+
+/*Font styling*/
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
