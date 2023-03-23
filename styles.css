@@ -1,23 +1,24 @@
-:root {
-    --main-font-color: white;
-    --main-bg-color: black;
-}
-
-/*Inverses the main font and background colour scheme*/
-
-.light-theme {
-    --main-font-color: black;
-    --main-bg-color: white;
+html {
+    --light-color-1: #F9F5EB;
+    --dark-color-1: #002B5B;
+    --light-color-2: #E4DCCF;
+    --dark-color-2: #2D2727;
+    --red-border-color: #EA5455;
 }
 
 body {
     margin: 0;
 }
 
+header {
+    background-color: var(--light-color-2);
+    color: var(--dark-color-2);
+    height: 50px
+}
+
 section {
-    background-color: var(--main-bg-color);
-    color: var(--main-font-color);
-    margin: 0;
+    background-color: var(--light-color-1);
+    color: var(--dark-color-1);
 }
 
 /*Font styling*/
