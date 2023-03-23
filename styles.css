@@ -1,19 +1,15 @@
 html {
-    --light-color-1: #F9F5EB;
-    --dark-color-1: #002B5B;
-    --light-color-2: #E4DCCF;
-    --dark-color-2: #2D2727;
+    --light-color-1: white;
+    --dark-color-1: black;
     --red-border-color: #EA5455;
 }
 
-body {
-    margin: 0;
-}
+/*font-family: 'Source Code Pro', monospace;*/
+/*font-family: 'Source Sans Pro', sans-serif;*/
 
-header {
-    background-color: var(--light-color-2);
-    color: var(--dark-color-2);
-    height: 50px
+body {
+    font-family: source san;
+    margin: 0;
 }
 
 section {
