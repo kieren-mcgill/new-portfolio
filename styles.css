@@ -1,32 +1,47 @@
 html {
-    --light-color-1: white;
-    --dark-color-1: black;
-    --red-border-color: #EA5455;
+    --light-font-colour: black;
+    --light-container-colour: white;
+    --light-background-color: #e8e8e8;
+
+    --dark-font-colour: white;
+    --dark-container-colour: #282d35;
+    --dark-background-color: #21222a;
+
+    --yellow-details-colour: #facf0f;
+    --blue-details-colour: #61dafb;
 }
 
-/*font-family: 'Source Code Pro', monospace;*/
-/*font-family: 'Source Sans Pro', sans-serif;*/
 
 body {
-    font-family: source san;
+    background-color: var(--light-background-color);
+    font-family: 'Source Code Pro', monospace;
     margin: 0;
 }
 
-section {
-    background-color: var(--light-color-1);
-    color: var(--dark-color-1);
+/*Navbar styling*/
+
+.nav-btn {
+    border: var(--light-font-colour) solid 2px;
+}
+
+.home-btn {
+    margin-right: auto;
+}
+
+
+.section {
+    background-color: var(--light-container-colour);
+    color: var(--light-font-colour);
+    display: flex;
+    margin: 2.5% 5%;
 }
 
 /*Font styling*/
 
 h1 {
-
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
-
-}
-
-p {
 
 }
