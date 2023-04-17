@@ -7,51 +7,56 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"/>
     <script src="app.js" defer></script>
     <title>Kieren McGill</title>
 </head>
 <body>
-<nav class="nav section">
-        <a class="nav-btn home-btn">
-            KIEREN MCGILL
-        </a>
-        <a class="nav-btn">
-            MENU
-        </a>
-</nav>
-
-<section class="hero section">
-    <div class="container">
-        <div class="greet-msg">
-            <h1 id="greet-el">
-                Good morning.
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie id dolor non lobortis. Etiam
-                ligula mauris, dictum a blandit vel, vestibulum eu ex. Integer eu eleifend lacus. Vivamus eu consequat
-                metus. Vestibulum porttitor mollis eros ac porta. Suspendisse potenti. Cras nec diam eu eros dapibus
-                semper.
-            </p>
+<section class="landing">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid nav-container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/KM-icon.png" alt="icon of bald man" width="40" class="me-3"/>Kieren McGill
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
         </div>
-
+    </nav>
+    <div class="hero-container">
+        <div class="style-box"></div>
+        <div class="hero p-3">
+            <h1 class="pb-1" id="greet-el"></h1>
+            <h1 class="pb-3">I'm Kieren.</h1>
+            <p>
+                I'm a junior full-stack developer based in Sheffield, UK.
+            </p>
+            <div class="blinking-dots">
+                <p><strong>find out more</strong></p>
+                <div class="blink-1 mb-2"></div>
+                <div class="blink-2 mb-2"></div>
+                <div class="blink-3 mb-2"></div>
+            </div>
+        </div>
     </div>
 </section>
-<section class="projects section">
-    <h2>Projects</h2>
 
-</section>
-<section class="about section">
-        <h2>About me</h2>
-</section>
-<section class="contact section">
-
-</section>
-<footer>
-
-</footer>
-<!--Bootstrap script-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+<a href="https://www.flaticon.com/free-icons/bald" title="bald icons">Bald icons created by Darius Dan - Flaticon</a>
 </body>
+
 </html>
