@@ -1,26 +1,33 @@
-html {
-    --light-font-colour: black;
-    --light-container-colour: white;
-    --light-background-color: #e8e8e8;
-
-    --dark-font-colour: white;
-    --dark-container-colour: #282d35;
-    --dark-background-color: #21222a;
-
-    --yellow-details-colour: #facf0f;
-    --blue-details-colour: #61dafb;
-}
-
 
 body {
-    background-color: var(--light-background-color);
+    background-image: url("./images/nodes-background.jpg");
+    background-attachment: fixed;
+    color: #212529;
     margin: 0;
+}
+
+main {
+    background-color: rgba(232, 232, 232, 0.85);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .nav-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 0.8rem;
+}
+
+.head-icon {
+    border: #212529 solid 1px;
+    border-radius: 50%;
 }
 
 .navbar-collapse {
@@ -30,36 +37,22 @@ body {
 
 .navbar-toggler {
     border: none;
+    border-radius: 0;
 }
 
-.landing {
-    height: 100vh;
+section {
+    min-height: 100vh;
     width: 100%;
-}
-
-.hero-container {
-    display: flex;
-    height: 100%;
-}
-
-.style-box {
-    width: 15%;
-    background-color: #F8F9FA;
-}
-
-.hero {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
 }
 
 .blinking-dots {
     align-items: center;
+    align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    justify-self: flex-end;
+    margin-bottom: 66px;
 }
 
 .blinking-dots div {
@@ -94,4 +87,46 @@ body {
     100% {
         background-color: rgba(33, 37, 41, 0.2);
     }
+}
+
+.section-divider {
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 25vh;
+}
+
+.km-portrait {
+    height: 120px;
+    aspect-ratio: 1 / 1;
+    padding: 10px 10px 0 0;
+    border-start-end-radius: 35%;
+    border-end-start-radius: 35%;
+    float: right;
+    top: 0;
+    right: 0;
+    margin-left: 10px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    font-size: 0.8rem;
+}
+
+.skills i {
+    font-size: 2rem;
+}
+
+.card {
+    width: 20rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+    height: 100px;
 }
